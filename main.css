@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.images{
+text-align: center;
+}
+.images div{
+   display: inline-block;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+.navigation{
+    text-align: center;
+    padding:40px 0;
+
+}
+.navigation a.active{
+background: #ff3535;
+padding: 8px;
+border-radius: 50px;
+color: #fff;
+transition: 0.3s;
+}
+.navigation a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #212121;
+    transition: 0.3s;
+   padding: 8px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
